@@ -47,20 +47,7 @@
 					<moduleList>map-externalids-response</moduleList>
 				</configuration>
 			</plugin>
-			<plugin>
-			  <groupId>com.mulesoft.munit.tools</groupId>
-			  <artifactId>munit-maven-plugin</artifactId>
-			  <version>2.3.8</version>
-			  <executions>
-				<execution>
-				  <id>test</id>
-				  <phase>test</phase>
-				  <goals>
-					<goal>test</goal>
-				  </goals>
-				</execution>
-			  </executions>
-			</plugin>
+			
 			
 		</plugins>
 	</build>
